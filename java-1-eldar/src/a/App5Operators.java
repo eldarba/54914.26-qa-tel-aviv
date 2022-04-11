@@ -28,6 +28,7 @@ public class App5Operators {
 		System.out.println(5 == 9);
 		System.out.println(5 != 9);
 		
+		// AND && ___________ OR ||
 		System.out.println("============ COMBINE LOGICAL OPERATORS");
 		int minAge = 18;
 		int maxAge = 120;
