@@ -9,7 +9,7 @@ public class App5Operators {
 		// expressions: 150 + 36
 		
 		// ARITHMETICAL OPERATORS 
-		System.out.println("ARITHMETICAL OPERATORS");
+		System.out.println("ARITHMETICAL OPERATORS 123");
 		System.out.println(5 + 3); // plus
 		System.out.println(5 - 3); // minus
 		System.out.println(5 * 3); // multiply
