@@ -4,21 +4,27 @@ public class App1 {
 
 	public static void main(String[] args) {
 
-		int x; // variable declaration is done only once
-		// call the add method and get the result
-		x = add(5, 6);
-		// print
-		System.out.println(x);
-
-		// call the subtract method and get the result
-		x = subtract(100, 70);
-		// print
-		System.out.println(x);
-
-		// call the divide method and get the result
-		double y = divide(10, 3);
-		// print
-		System.out.println(y);
+//		int x; // variable declaration is done only once
+//		// call the add method and get the result
+//		x = add(5, 6);
+//		// print
+//		System.out.println(x);
+//
+//		// call the subtract method and get the result
+//		x = subtract(100, 70);
+//		// print
+//		System.out.println(x);
+//
+//		// call the divide method and get the result
+//		double y = divide(10, 3);
+//		// print
+//		System.out.println(y);
+		
+		// calling the functions
+		System.out.println(add(10, 3));
+		System.out.println(subtract(10, 3));
+		System.out.println(multiply(10, 3));
+		System.out.println(divide(10, 3));
 
 	}
 
