@@ -5,7 +5,6 @@ public class App1 {
 	public static void main(String[] args) {
 
 		int x; // variable declaration is done only once
-
 		// call the add method and get the result
 		x = add(5, 6);
 		// print
@@ -16,9 +15,14 @@ public class App1 {
 		// print
 		System.out.println(x);
 
+		// call the divide method and get the result
+		double y = divide(10, 3);
+		// print
+		System.out.println(y);
+
 	}
 
-	// method definition
+	// methods definition
 	public static int add(int a, int b) {
 		int result = a + b;
 		return result;
@@ -38,5 +42,4 @@ public class App1 {
 		double result = a / b;
 		return result;
 	}
-
 }
