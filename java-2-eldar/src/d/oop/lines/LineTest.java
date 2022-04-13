@@ -5,10 +5,13 @@ public class LineTest {
 	public static void main(String[] args) {
 		Line line = new Line();
 		line.setLength(10);
-		// line.setLength(-7);
-		line.print();
-
 		System.out.println(line.getLength());
+		line.setLength(-10);
+		System.out.println(line.getLength());
+		line.setLength(3);
+		System.out.println(line.getLength());
+
+		line.print();
 
 	}
 
