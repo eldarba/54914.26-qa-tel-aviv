@@ -2,7 +2,7 @@ package a;
 
 import java.util.Scanner;
 
-public class Demo01 {
+public class Demo03 {
 
 	public static void main(String[] args) {
 
@@ -14,6 +14,10 @@ public class Demo01 {
 
 		if (x > 5) {
 			System.out.println("Big");
+		} else if (x == 5) {
+			System.out.println("Bingo");
+		} else {
+			System.out.println("Small");
 		}
 
 	}
