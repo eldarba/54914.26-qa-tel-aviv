@@ -4,17 +4,20 @@ public class Demo1 {
 
 	public static void main(String[] args) {
 
-		// array of int (length 3)
+		// create an array of int (length 3)
 		int[] arr = new int[3];
-		// populate array with data
+
+		// populate the array with data
 		arr[0] = 7;
 		arr[1] = -9;
 		arr[2] = 11;
+
 		// access the array elements (for print)
-		System.out.println(arr[0]);
-		System.out.println(arr[1]);
-		System.out.println(arr[2]);
-		// System.out.println(arr[3]); // out of array bounds
+		System.out.println(arr[0]); // 7
+		System.out.println(arr[1]); // -9
+		System.out.println(arr[2]); // 11
+
+		// System.out.println(arr[3]); // error - index 3 is out of array bounds
 
 	}
 
