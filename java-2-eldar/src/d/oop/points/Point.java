@@ -41,4 +41,9 @@ public class Point {
 		y--;
 	}
 
+	void reset() {
+		x = 0;
+		y = 0;
+	}
+
 }

@@ -23,6 +23,9 @@ public class PointTest {
 		// move up 2 steps
 		p1.moveUp();
 		p1.moveUp();
+		p1.printLocation();
+		// reset the point
+		p1.reset();
 		// print the current location
 		p1.printLocation();
 
