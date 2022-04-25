@@ -18,6 +18,8 @@ public class LineTest3 {
 		System.out.println("length: " + wLine.getLength());
 		System.out.println("width: " + wLine.getWidth());
 
+		// since we override the print method
+		// we can now see the line width as well
 		wLine.print();
 	}
 
