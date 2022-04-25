@@ -20,8 +20,15 @@ public class Demo1 {
 		int index = sc.nextInt();
 		// close the scanner
 		sc.close();
-		// insert the number in the right index
-		arr[index] = number;
+
+		try {
+			// try to insert the number in the right index
+			arr[index] = number;
+		} catch (Exception e) {
+			// this code will run only in case of error
+			System.out.println("you entered wrong index: " + index);
+		}
+
 		// print the array
 		System.out.println(Arrays.toString(arr));
 
