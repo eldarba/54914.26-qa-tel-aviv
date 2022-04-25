@@ -16,8 +16,12 @@ public class Demo3 {
 			System.out.println("file NOT exist");
 		}
 
-		try {
-			Scanner sc = new Scanner(file);
+		// ARM - Auto Resource Management - closes the scanner automatically
+		try (Scanner sc = new Scanner(file);) {
+			// we can now work with the scanner
+//			System.out.println(sc.next());
+//			System.out.println(sc.next());
+//			System.out.println(sc.next());
 		} catch (Exception e) {
 			// if we are here an error occurred - file not found
 			System.out.println("scanner error: file not found. creating the file");
