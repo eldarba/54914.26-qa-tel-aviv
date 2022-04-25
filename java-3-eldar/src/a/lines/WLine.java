@@ -12,4 +12,16 @@ public class WLine extends Line {
 		this.width = width;
 	}
 
+	// override the print method
+	void print() {
+		System.out.println(getColor());
+		for (int w = 0; w < width; w++) {
+			for (int c = 0; c < getLength(); c++) {
+				System.out.print("*");
+			}
+			System.out.println();
+
+		}
+	}
+
 }
