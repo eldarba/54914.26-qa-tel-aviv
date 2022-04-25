@@ -24,4 +24,11 @@ public class Line {
 		}
 	}
 
+	public String getColor() {
+		return color;
+	}
+
+	public int getLength() {
+		return length;
+	}
 }
