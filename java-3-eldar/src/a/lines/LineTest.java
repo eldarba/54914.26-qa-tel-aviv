@@ -1,5 +1,7 @@
 package a.lines;
 
+import a.lines.Line.Color;
+
 public class LineTest {
 
 	public static void main(String[] args) {
@@ -9,7 +11,7 @@ public class LineTest {
 
 		// set color
 		// myLine.color = "Red";
-		myLine.setColor("Red");
+		myLine.setColor(Color.BLUE);
 		// set length
 		// myLine.length = -7;
 		myLine.setLength(5);

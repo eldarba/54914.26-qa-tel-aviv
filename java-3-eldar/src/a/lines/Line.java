@@ -2,8 +2,12 @@ package a.lines;
 
 public class Line {
 
-	private String color;
+	private Color color;
 	private int length;
+
+	public enum Color {
+		BLACK, WHITE, RED, GREEN, BLUE, YELLOW
+	}
 
 	void print() {
 		System.out.println(color);
@@ -14,7 +18,7 @@ public class Line {
 	}
 
 	// access to attributes using get / set methods
-	public void setColor(String color) {
+	public void setColor(Color color) {
 		this.color = color;
 	}
 
@@ -24,7 +28,7 @@ public class Line {
 		}
 	}
 
-	public String getColor() {
+	public Color getColor() {
 		return color;
 	}
 
